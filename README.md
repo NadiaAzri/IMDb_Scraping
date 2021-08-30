@@ -1,6 +1,6 @@
 # IMDb informations of all the movies and tv shows released on 2020
 
-In this projects, I've scripted the IMDb rates, movie and tv show names, metascores and votes of all the movies and tv shows of 2020 including those that don't have metascore values. The number of scripted pages was too high, so I only scripted 1000 pages, and each page has 50 movies and TV shows, the total number of scripted movies was 50,000. 
+In this projects, I've scraped the IMDb rates, movie and tv show names, metascores and votes of all the movies and tv shows of 2020 including those that don't have metascore values. The number of scripted pages was too high, so I only scripted 1000 pages, and each page has 50 movies and TV shows, the total number of scripted movies was 50,000. 
 
 Language used is Python 3.8. / Pycharm.
 
