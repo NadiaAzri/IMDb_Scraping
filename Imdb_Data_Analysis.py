@@ -1,12 +1,13 @@
-# Python program to scrape website
-# and save all the movies that released in 2020 from imdb
+# Python program to plot data 
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+# reading the csv file
 df = pd.read_csv('/home/nadia/PycharmProjects/Web_Scraping/IMDb_data_2020.csv')
 
-
+# counting the rates in intervals
 ratings = sum(i > 8.0 for i in df['imdb']), \
           sum(6.0 < i < 8.0 for i in df['imdb']), \
           sum(5.0 < i < 6.0 for i in df['imdb']), \
@@ -24,8 +25,6 @@ activities = ['rate > 8.0', '6.0 < rate < 8.0', '5.0 < rate < 6.0', '3.0 < rate 
 labels = ['meta_score > 90', '80 < meta_score < 90', '60 < meta_score < 80', '50 < meta_score < 60',
           '30 < meta_score < 50', 'meta_score < 30']
 
-# portion covered by each label
-slices = [3, 7, 8, 6]
 
 # color for each label
 colors_rates = ['r', 'y', 'g', 'b', 'c']
@@ -53,18 +52,15 @@ plt.title('2020\'s movies and shows metascores')
 plt.show()
 
 left = [1, 2, 3, 4, 5]
-
 # plotting a bar chart
 plt.bar(left, ratings, tick_label=activities,
         width=0.8, color=['red', 'green'])
-
 # naming the x-axis
 plt.xlabel('Rates')
 # naming the y-axis
 plt.ylabel('Number of movies and shows')
 # plot title
 plt.title('2020\'s movies and shows imdb rates')
-
 # function to show the plot
 plt.show()
 
