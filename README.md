@@ -10,4 +10,4 @@ I've used BeautifulSoup to parse the HTML content.
   
 ### The following plots are created by <addr> Imdb_Data_Analysis.py
   
-![2020's movies and shows ratings](/images/2020's movies and shows ratings (pie).png)  
+![2020's movies and shows ratings](https://github.com/[NadiaAzri]/[IMDb_scraping]/blob/[branch]/2020sMoviesAndShowsRatings(pie).png?raw=true)  
