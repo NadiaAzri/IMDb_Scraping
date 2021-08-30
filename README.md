@@ -4,6 +4,6 @@ In this projects, I've scraped the IMDb rates, movie and tv show names, metascor
 Language used is Python 3.8. Pycharm.
 I've used BeautifulSoup to parse the HTML content.
 
-<h2> Ploting the data <\h2>
-  The following plots are created by `<addr>` Imdb_Data_Analysis.py
+<h2> Ploting the data
+The following plots are created by `<addr>` Imdb_Data_Analysis.py
 ![2020's movies and shows ratings](/images/2020's movies and shows ratings (pie).png)  
