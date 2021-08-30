@@ -8,6 +8,6 @@ I've used BeautifulSoup to parse the HTML content.
 
 <h2> Ploting the data
   
-The following plots are created by `<addr>` Imdb_Data_Analysis.py
+#The following plots are created by `<addr>` Imdb_Data_Analysis.py
   
 ![2020's movies and shows ratings](/images/2020's movies and shows ratings (pie).png)  
